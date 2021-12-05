@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args)
     {
-        String name_1 = "Roman";
-        String name_2 = "Roman";
+        String name1 = "Roman";
+        String name2 = " Roman";
+        String name_1 = name1.trim();
+        String name_2 = name2.trim();
         boolean result;
 
         result = name_1.equalsIgnoreCase(name_2);
